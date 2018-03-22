@@ -7,6 +7,5 @@ RUN wget https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-gnu/rustu
   ./rustup-init -y &&\
   rm -rf rustup-init
 
-ENV PATH=$PATH:~/.cargo/bin
-
+ENV PATH=$PATH:/root/.cargo/bin
 RUN rustup override set nightly
