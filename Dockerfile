@@ -1,4 +1,4 @@
-FROM jenkinsxio/builder-base:0.0.304
+FROM jenkinsxio/builder-base:0.0.305
 
 RUN yum install -y gcc 
 
